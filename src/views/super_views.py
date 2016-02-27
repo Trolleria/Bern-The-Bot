@@ -15,7 +15,7 @@ class SuperViews():
         ]
 
     def about(self, message=None, match=None, to=None):
-        self.url_print_sender.send_by_url(message.getFrom(), "https://github.com/joaoricardo000/whatsapp-bot-seed", ABOUT_TEXT)
+        self.url_print_sender.send_by_url(message.getFrom(), "https://github.com/Trolleria/Bern-The-Bot", ABOUT_TEXT)
 
     def roll(self, message=None, match=None, to=None):
         return TextMessageProtocolEntity("[%d]" % random.randint(1, 6), to=message.getFrom())
@@ -51,7 +51,7 @@ Automatic:
     - Youtube videos.
 """
 
-ABOUT_TEXT = """ [Whatsapp Bot Seed]
+ABOUT_TEXT = """ [Bern The Bot]
 A small open source python framework to create a whatsapp bot, with regex-callback message routing.
-https://github.com/joaoricardo000/whatsapp-bot-seed
+https://github.com/Trolleria/Bern-The-Bot
 """
