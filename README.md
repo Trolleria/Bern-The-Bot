@@ -1,32 +1,6 @@
-# whatsapp-bot-seed
+# Bern The What'sapp Bot
 A small python seed to create a Whatsapp Bot, with regex-callback routes (just like a web framework).  
 (practical extension of the examples on https://github.com/tgalal/yowsup)
-
-# What it does?
-- Basic message handling:  
-![Example](http://i.imgur.com/TbirVKg.jpg?1)  
-  
-  
-  
-- Automatic media (images and videos) download, and url print screens  
-![Example](http://i.imgur.com/fItWbTR.jpg?1)  
-
-  
-  
-- Youtube Video Downloads, and Text to Speech  
-![Example](http://i.imgur.com/dMbWLCm.jpg?1)  
-
-  
-  
-- Google image and web search  
-![Example](http://i.imgur.com/gDYIEej.jpg?1)
-  
-  
-- Group administration  
-![Example](http://i.imgur.com/pSDCWDb.png?1)  
-and a bit more...
-  
-
 
 # Installation
 1. Install the image handling system dependencies on ```bash opt/system-requirements.sh```
