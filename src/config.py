@@ -13,21 +13,8 @@
 
     > yowsup-cli registration -C 55 -R <sms-key> -p 554899998888
 
-    status: ok
-    kind: free
-    > pw: njH+QGBqGXXXXXXXOFa+Wth5riM=
-    price: US$0.99
-    price_expiration: 1444272405
-    currency: USD
-    cost: 0.99
-    > login: 554899998888
-    type: existing
-    expiration: 1472404969
-
-    Now just get the login and pw, and replace bellow. :)
-
 """
-auth = ("XXXXXXXXXXXX", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+auth = ("85255054213", "Asv9BBPYIRFx+hwcNFC7fhQ9RCQ=")
 
 # If filter_groups is True, the bot only stays
 # at groups that there is at least one admin on it.
@@ -37,14 +24,14 @@ admins = ["XXXXXXXXXXXX", ]
 
 
 # Bing API for image search
-bing_api = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+bing_api = "K3I+DyWqUnD0IwIr5Ova90At38gkoFeVadH1rJhWliE"
 
 # Path to download the media requests
 # (audio recordings, printscreens, media and youtube videos)
-media_storage_path = "/tmp/"
+media_storage_path = "berntmp/"
 
 # Session shelve db path
-session_db_path = "/tmp/sessions.db"
+session_db_path = "berntmp/sessions.db"
 
 
 # Logging configuration.
